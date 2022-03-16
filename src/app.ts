@@ -2,7 +2,6 @@ import express from "express";
 import { handle404, handleError } from "af-utils-node";
 
 import { router } from "./routes";
-require("dotenv-safe").config();
 
 const app = express();
 
